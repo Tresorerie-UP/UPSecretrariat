@@ -1,0 +1,9 @@
+Pour les facturations que Unipoly émet:
+FEAnnée_comptable-Entitée_concernée-Numéro_de_la_facture_dans_l'année_pour_cette_entitée
+Exemple: FE1920-Agepoly-1 
+Pour une la première facture envoyée à l'agepoly dans l'année comptable 2019-2020
+
+Pour les fichiers qui justifie un paiement (Factures ou justificatifs)
+(FACT ou JUST)Année_comptable-Projet_concerné-Numéro_de_la_facture_dans_le_projet
+Exemple: FACT1920-DUDU-1
+Pour la première facture à payer pour le projet DUDU(Semaine de la durabilité)

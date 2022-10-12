@@ -1,0 +1,12 @@
+Fournisseur,Produit,Total, Quantite, Prix(par unité)
+farm,carottes demeter,2.45,5,0.49000000000000005
+farm,courge musquée (tranche de 1 kg),4,1,4
+shop,müsli choco-amaranthe,6.75,5,1.35
+shop,pain multigrain (1kg),7.2,1,7.2
+farm,persil (bouquet),1.6,1,1.6
+farm,salade,2.4,1,2.4
+farm,radis (botte),2.5,1,2.5
+farm,côte de bettes,3.2,4,0.8
+farm,oignons (botte),2.3,1,2.3
+shop,pain à l'avoine (1kg),7.2,1,7.2
+shop,riz complet,4.32,8,0.54

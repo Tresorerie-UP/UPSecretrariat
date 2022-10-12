@@ -1,0 +1,12 @@
+RE1920-1-Agepoly : Facturation des entrées Camipro pour le chalet de l'Avent 2019
+RE1920-2-Agepoly : Facturation du lunch suivant la conférence "Les ingénieurs face aux défis environementaux
+RE1920-3-Comité_HEC : Facturation de la moitié du féraiement de Mirielle Bruyère pour ça conférence en mars 2020
+RE1920-4-Ciné_Club : Facturation des droits de projection pour le film "Woman at war"
+RE1920-5-Polyquity : Facturation des droits de projection pour le film "Woman at war"
+RE1920-6-Durabilité_EPFL Facturation du défraiement des bénévoles ayant construit l'armoire d'Epilibre
+
+
+
+
+
+

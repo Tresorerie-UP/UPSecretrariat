@@ -1,0 +1,81 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Invoice Template
+% LaTeX Template
+% Version 1.0 (3/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the invoice.cls file to be in the same directory as 
+% the .tex file. The invoice.cls file provides the style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONFIGURATION
+%----------------------------------------------------------------------------------------
+
+\documentclass{invoice} % Use the custom invoice class (invoice.cls)
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	HEADING SECTION
+%----------------------------------------------------------------------------------------
+
+
+{\bf Epilibre} \\
+Case postale 15 \\ % Your address and contact information
+1015 Lausanne \\
+\\
+comite@unipoly.ch \\
++41 21 693 20 45 \\
+\tab[10cm]  {\bf Gianluca Paglia}\\ % Title
+\tab[10cm]  Durabilité EPFL\\ % Invoice recipient
+\tab[10cm] BS 101/Station 4\\ % Recipient's address
+\tab[10cm] 1015 Lausanne
+
+{\bf Facture no. :} \tab[0.075cm] 200914/1 \\ % Invoice date
+{\bf Date :} \tab[1.5cm] 14.09.2020 \\ % Invoice date
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF EXPENSES
+%----------------------------------------------------------------------------------------
+
+\begin{invoiceTable}
+
+%------------------------------------------------
+\iffalse
+\feetype{Accounting Services} % Fee category description
+\fi
+
+\itemrow{\emph{Epilibre} : \\ Défraiement des bénévoles pour la construction de l’armoire}{1}{2800.00}
+
+
+%--------------------------------------------------
+\subtotal* % Prints a subtotal, can be used multiple times
+
+%------------------------------------------------
+
+\feerow{TVA (non applicable)}{0} % A flat fee service, note there is no hourly rate for this
+
+\end{invoiceTable}
+Merci pour votre confiance
+\vfill
+\hline
+Banque Alternative Suisse \hfill Clearing bancaire/IID: 8390 \\
+CH65 0839 0031 0515 1000 6 \hfill BIC (SWIFT-Code): ABSOCH22XXX \\
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

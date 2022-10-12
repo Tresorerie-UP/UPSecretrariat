@@ -1,0 +1,11 @@
+Fournisseur,Produit,Total, Quantite, Prix(par unité)
+farm,carottes demeter,2.25,5,0.45
+farm,chou rouge,2.4,5,0.48
+shop,pâtes (penne),6.3,10,0.63
+farm,pomme de terre agria (farineuse),3.5999999999999996,3,1.2
+shop,chun mee (thé vert),7.2,1,7.2
+farm,courge musquée (tranche de 1 kg),4,1,4
+farm,pommes,4.5,1,4.5
+shop,raisins secs sultan,3.96,4,0.99
+shop,pain multigrain (400g),4.14,1,4.14
+shop,pain à l'épeautre (500g),4.5,1,4.5
